@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "title": "Zdravo TransPerfect time 👋",
+    "desc": "Moje ime je Vanja i ja sam Frontend Developer iz Obrenovca, Srbije."
+  },
+  "edu": {
+    "title": "Moje obrazovanje",
+    "school": "IT Akademija",
+    "date": "Nov 2021. - Nov 2022.",
+    "desc": "U IT Akademiji sam naučio osnove programiranja, a takođe sam naučio kako da koristim najpopularniji programski jezik i njegove biblioteke. React i Next su bili glavni fokus kursa."
+  },
+  "skills": {
+    "title": "Moje veštine"
+  },
+  "form": {
+    "title": "Kontaktirajte me",
+    "firstName": "Ime",
+    "firstNameError": "Ime je obavezno",
+    "lastName": "Prezime",
+    "lastNameError": "Prezime je obavezno",
+    "email": "Email",
+    "emailError": "Email je obavezan",
+    "message": "Poruka",
+    "messageError": "Poruka je obavezna",
+    "submit": "Pošalji"
+  },
+  "experience": {
+    "title": "Moje iskustvo",
+    "jobs": {
+      "phoenix": {
+        "company": "Phoenix Consultancy",
+        "position": "Software Engineer",
+        "date": "Feb 2023. - Present",
+        "desc": "Razvijao aplikacije sa React-om, Next-om, TypeScript-om, Rest-om, takođe sam radio u TailwindCSS-u kako bih kreirao stabilne koisničke interfejse. Konsultovao sam se sa menadžerom proizvoda da identifikujemo glavne karakteristike i ciljeve projekta i dekomponovao skup funkcija na komponente malog obima. Pisao sam održiv i nadogradiv kod, radio sam u timskom okruženju i blisko sarađivao sa dizajnerima i programerima, i kontrolom kvaliteta. Implementirao sam Redux cart logiku i ubrzao performans aplikacije za 300%. Prisustvovao sam sastancima sa klijentima kako bi se osiguralo da se svaki cilj ispuni u rekordnom roku. Dizajniao strukturu klijentskog dela aplikacije na websajtu koji koriste hiljade ljudi."
+      },
+      "bibo": {
+        "company": "Bibo Global Opportunity",
+        "position": "Profesor Engleskog jezika",
+        "date": "Mar 2021. - Nov 2023",
+        "desc": "Koristio sam najbolje nastavne metode kako bih pružio zanimljivo učenje i pomoć učenicima Engleskog jezika. Koristio sam audio/vizuelna pomagala kao i platforme za predavanje časova Engleskog jezika. Ponudio sam individualnu pomoć i dodatno podučavanje učenicima nakon nastave. Podsticao učešće učenika na času i motivisao ih da vredno rade i više vežbaju."
+      }
+    }
+  },
+  "modal": {
+    "name": "Ime",
+    "lastName": "Prezime",
+    "email": "Email",
+    "message": "Poruka",
+    "sent": "Vaša poruka je poslata!"
+  }
+}

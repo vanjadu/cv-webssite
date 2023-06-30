@@ -1,0 +1,33 @@
+@import '../../styles/variables.sass'
+
+.edu
+    width: 100%
+    padding: 0 7rem
+    display: flex
+    align-items: flex-start
+    justify-content: space-between
+    @media only screen and (max-width: 950px)
+        flex-direction: column
+        align-items: center
+        padding: 0 1rem
+        margin-top: 2rem
+    &__title
+        font-size: 2rem
+    &__text
+        flex: .5
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+        @media only screen and (max-width: 950px)
+            align-items: center
+        &--header
+            display: flex
+            align-items: center
+            gap: 4rem
+            margin-bottom: 1rem
+        &--title
+            color: $accent
+        &--desc
+            text-align: right
+            @media only screen and (max-width: 950px)
+                text-align: center

@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "title": "Hello TransPerfect team 👋",
+    "desc": "My name is Vanja, and I'm a Frontend Developer from Obrenovac, Serbia."
+  },
+  "edu": {
+    "title": "My education",
+    "school": "IT Academy",
+    "date": "Nov 2021. - Nov 2022.",
+    "desc": "At the IT Academy I learned the basics of programming, and I also learned how to use the most popular programming language and its frameworks. React & Next were the main focus of the course."
+  },
+  "skills": {
+    "title": "My skills"
+  },
+  "form": {
+    "title": "Contact me",
+    "firstName": "First name",
+    "firstNameError": "First name is required",
+    "lastName": "Last name",
+    "lastNameError": "Last name is required",
+    "email": "Email",
+    "emailError": "Email is required",
+    "message": "Message",
+    "messageError": "Message is required",
+    "submit": "Submit"
+  },
+  "experience": {
+    "title": "My experience",
+    "jobs": {
+      "phoenix": {
+        "company": "Phoenix Consultancy",
+        "position": "Software Engineer",
+        "date": "Feb 2023. - Present",
+        "desc": "Developed applications with React, Next, TypeScript, Rest as well as worked in TailwindCSS to create solid User Interfaces. Consulted with the product manager to identify main features and goals and decomposed feature set into small scoped components Wrote maintainable and extensible code in a team environment, worked closely with Backend, Design and QA teams. Implemented Redux cart from scratch, speeding up the app’s performance by 300%. Attended meetings with clients to ensure every goal is met in record time. Designed the client side structure, and folder architecture on project used by thousands of people."
+      },
+      "bibo": {
+        "company": "Bibo Global Opportunity",
+        "position": "English Teacher",
+        "date": "Mar 2021. - Nov 2023",
+        "desc": "Used the best instructional methods to provide engaging learning and assistance to English students. Used audio-visual aids as well as technology to deliver Literature and cultural lessons. Offered one-on-one assistance and additional tutoring to students after classes. Encouraged student participation in class and motivated them to work hard and practice better."
+      }
+    }
+  },
+  "modal": {
+    "name": "Name",
+    "lastName": "Last name",
+    "email": "Email",
+    "message": "Message",
+    "sent": "Your message is sent!"
+  }
+}

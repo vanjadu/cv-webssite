@@ -1,0 +1,63 @@
+@import '../../styles/variables.sass'
+
+.header
+    position: fixed
+    top: 0
+    z-index: 10
+    width: 100%
+    height: 80px
+    background-color: $off-black
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 0 5rem
+    @media only screen and (max-width: 950px)
+        padding: 0 4rem
+    &__name
+        font-size: 1.5rem
+        cursor: pointer
+        transition: $transition
+        &:hover
+            color: $accent
+        @media (max-width: 768px)
+            font-size: .8rem
+    &__language
+        position: relative
+        display: inline-block
+        &::after
+            content: ''
+            position: absolute
+            top: 50%
+            right: -1rem
+            transform: translateY(-50%)
+            border: 5px solid transparent
+            border-top-color: $off-white
+    &__icon
+        font-size: 1.5rem
+        color: $off-white
+        cursor: pointer
+        transition: all 0.2s ease-in-out
+        &:hover
+            color: $accent
+    &__menu
+        display: none
+        position: absolute
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1)
+        z-index: 1
+        flex-direction: column
+        align-items: flex-start
+        &.show
+            display: flex
+    &__button
+        background-color: $off-black
+        color: $off-white
+        padding: 0.5rem .5rem
+        text-decoration: none
+        display: block
+        text-align: left
+        outline: none
+        border: 1px solid darken($off-black, 4%)
+        cursor: pointer
+        &:hover
+            background-color: $off-white
+            color: $off-black
